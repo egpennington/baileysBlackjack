@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("/image/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:10px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: goldenrod;
+    position: absolute;
+    text-shadow: 2px 2px 5px #333;
+}
+
+.txt-lg { font-size: 1.5rem; }
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
