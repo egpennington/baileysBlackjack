@@ -37,7 +37,17 @@ h2 {
     font-weight: bold;
 }
 
+h3 { 
+    text-shadow: 2px 2px 0 #333;
+    color: goldenrod;
+}
+
 .txt-lg { font-size: 1.5rem; }
+.txt-special { font-style: oblique; }
+.txt-ul { 
+    border-bottom: 2px solid goldenrod;
+    box-shadow: 0 2px #333;
+}
 
 .game-area { 
     padding-top: 40px;
